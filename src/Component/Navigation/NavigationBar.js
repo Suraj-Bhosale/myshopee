@@ -13,12 +13,12 @@ function NavigationBar() {
         </div>
         <div className='navigation-links'>
           <div className='flex-container'>
-            <div className='flex-items'> <a href="#"> Home</a></div>
-            <div className='flex-items'> <a href="#"> Shop</a></div>
-            <div className='flex-items'> <a href="#"> About</a></div>
-            <div className='flex-items'> <a href="#"> Blog</a></div>
-            <div className='flex-items'> <a href="#"> Contact</a></div>
-            <div className='flex-items'> <a href="#"> Pages</a></div>
+            <div className='flex-items'> <a><NavLink activeClassName='active' to='/home'>Home</NavLink></a></div>
+            <div className='flex-items'> <a ><NavLink activeClassName='active' to='/shop'>Shop</NavLink></a></div>
+            <div className='flex-items'> <a> <NavLink activeClassName='active' to='/about'>About</NavLink></a></div>
+            <div className='flex-items'> <a><NavLink activeClassName='active' to='/blog'>Blog</NavLink></a></div>
+            <div className='flex-items'> <a><NavLink activeClassName='active' to='/contact'>Contact</NavLink></a></div>
+            <div className='flex-items'> <a><NavLink activeClassName='active' to='/pages'>Pages</NavLink></a></div> 
           </div>
         </div>
         <div className='navigation-cart'>
@@ -72,18 +72,6 @@ function NavigationBar() {
               </div>
             </div>
           </div>
-        
-      
-
-
-
-
-
-
-
-
-            {/* <button className='login-btn'>Login</button>
-            <button className='signup-btn'>SignUp</button> */}
         </div>
     </div>
   )

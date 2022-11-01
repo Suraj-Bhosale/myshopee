@@ -2,31 +2,25 @@
     display: flex;
     flex-direction: column;
     flex: 0 0 auto;
-    width: 366px;
-    height: 472px;
-    left: 99px;
-    top: 132px;
+    width: 410px;
+    height: 470px;
     background: #FFFFFF;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
-
-    border: 1px solid black;
 }
+
 .item-container img {
     width: 366px;
-    height: 307px;
-    /* left: 99px;
-    top: 132px;
-
-    background: url(71xb2xkN5qL.jpg);
-    border-radius: 10px 10px 0px 0px; */
+    height:260px;
 }
+
 .item-info {
     padding: 1rem;
 }
+
 .item-title {
     display: inline-block;
-    width: 360px;
+    width: 300px;
     height: 32px;
     left: 115px;
     top: 451px;
@@ -70,7 +64,6 @@
 }
 
 .item-price{
-    /* width: 60px; */
     height: 32px;
     font-family: 'Montserrat';
     font-style: normal;
@@ -81,6 +74,7 @@
     text-decoration-line: line-through;
     color: #444444;
 }
+
 .item-old-price{
     width: 92px;
     height: 32px;
@@ -96,26 +90,16 @@
 .item-card-btn{
     width: 328px;
     height: 43px;
-    /* left: 117px;
-    top: 547px; */
     color: white;
     background: #23A6F0;
     border-radius: 10px;
-
-        /* width: 145px;
-    height: 32px; */
-    /* left: 580px;
-    top: 1241px; */
-
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 300;
     font-size: 20px;
     line-height: 32px;
-    /* identical to box height, or 160% */
+    color: #FFFFFF;
 
-
-color: #FFFFFF;
 }
 .btn-primary{
     background-color: #23A6F0 !important;

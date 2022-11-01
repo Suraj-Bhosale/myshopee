@@ -48,7 +48,7 @@ function RecommendationItem({id,newPrice,oldPrice,productImage,productName})
                     </div>
                 </div>
 
-            <div className='item-footer-btn '>
+            <div className='item-footer-btn'>
                 <button className='item-card-btn btn-primary' onClick={addToCart}>
                     ADD TO CART
                 </button>

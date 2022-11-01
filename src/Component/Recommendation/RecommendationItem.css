@@ -1,7 +1,5 @@
 .recommendation-container{
     margin-top: 20px ;
-    padding: 40px;
-
 }
 
 .recommendation-header{
@@ -9,8 +7,8 @@
     font-weight: 600;
 }
 .recommendation-list {
-    margin-top: 30px;
+    width: 100%;
     display: flex;
+    gap: 20px;
     overflow-x: scroll;
-    gap: 10px;
 }
